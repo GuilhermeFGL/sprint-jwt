@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo.response;
+package br.com.montreal.api_infraelo.util;
 
 import java.util.List;
 

@@ -23,10 +23,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.montreal.api_infraelo.response.Response;
 import br.com.montreal.api_infraelo.security.dto.JwtAuthenticationDto;
 import br.com.montreal.api_infraelo.security.dto.TokenDto;
 import br.com.montreal.api_infraelo.security.utils.JwtTokenUtil;
+import br.com.montreal.api_infraelo.util.Response;
 
 @RestController
 @RequestMapping("/auth")
