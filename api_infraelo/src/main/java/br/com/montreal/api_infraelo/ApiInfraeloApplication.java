@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import br.com.montreal.api_infraelo.security.entities.RoleEnum;
 import br.com.montreal.api_infraelo.security.entities.User;
-import br.com.montreal.api_infraelo.security.enumns.RoleEnum;
 import br.com.montreal.api_infraelo.security.repositories.UserRepository;
 import br.com.montreal.api_infraelo.util.CryptUtil;
 

@@ -11,8 +11,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import br.com.montreal.api_infraelo.security.enumns.RoleEnum;
-
 @Entity
 @Table(name = "usuario")
 public class User implements Serializable {

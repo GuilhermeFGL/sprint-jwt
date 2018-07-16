@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
+import br.com.montreal.api_infraelo.security.entities.RoleEnum;
 import br.com.montreal.api_infraelo.security.entities.User;
-import br.com.montreal.api_infraelo.security.enumns.RoleEnum;
 
 public class JwtUserFactory {
 

@@ -17,7 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import br.com.montreal.api_infraelo.security.JwtAuthenticationEntryPoint;
-import br.com.montreal.api_infraelo.security.filters.JwtAuthenticationTokenFilter;
+import br.com.montreal.api_infraelo.security.config.filter.JwtAuthenticationTokenFilter;
 
 @Configuration
 @EnableWebSecurity
