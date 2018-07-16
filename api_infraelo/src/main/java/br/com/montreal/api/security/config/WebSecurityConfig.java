@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo.security.config;
+package br.com.montreal.api.security.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -16,8 +16,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import br.com.montreal.api_infraelo.security.JwtAuthenticationEntryPoint;
-import br.com.montreal.api_infraelo.security.config.filter.JwtAuthenticationTokenFilter;
+import br.com.montreal.api.security.JwtAuthenticationEntryPoint;
+import br.com.montreal.api.security.config.filter.JwtAuthenticationTokenFilter;
 
 @Configuration
 @EnableWebSecurity

@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo.security;
+package br.com.montreal.api.security;
 
 import java.io.IOException;
 

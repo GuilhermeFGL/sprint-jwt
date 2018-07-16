@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo.security.config.filter;
+package br.com.montreal.api.security.config.filter;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import br.com.montreal.api_infraelo.security.utils.JwtTokenUtil;
+import br.com.montreal.api.security.utils.JwtTokenUtil;
 
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 

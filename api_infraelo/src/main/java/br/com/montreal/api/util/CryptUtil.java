@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo.util;
+package br.com.montreal.api.util;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

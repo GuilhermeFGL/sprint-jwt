@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo.security.dto;
+package br.com.montreal.api.security.dto;
 
 public class TokenDto {
 

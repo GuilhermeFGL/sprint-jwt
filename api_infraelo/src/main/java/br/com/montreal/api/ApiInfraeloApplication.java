@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo;
+package br.com.montreal.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -6,10 +6,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import br.com.montreal.api_infraelo.security.entities.RoleEnum;
-import br.com.montreal.api_infraelo.security.entities.User;
-import br.com.montreal.api_infraelo.security.repositories.UserRepository;
-import br.com.montreal.api_infraelo.util.CryptUtil;
+import br.com.montreal.api.security.entities.RoleEnum;
+import br.com.montreal.api.security.entities.User;
+import br.com.montreal.api.security.repositories.UserRepository;
+import br.com.montreal.api.util.CryptUtil;
 
 @SpringBootApplication
 public class ApiInfraeloApplication {

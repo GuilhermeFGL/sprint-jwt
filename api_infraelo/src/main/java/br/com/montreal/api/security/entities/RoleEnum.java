@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo.security.entities;
+package br.com.montreal.api.security.entities;
 
 public enum RoleEnum {
 	

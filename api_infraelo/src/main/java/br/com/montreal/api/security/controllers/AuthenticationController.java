@@ -1,4 +1,4 @@
-package br.com.montreal.api_infraelo.security.controllers;
+package br.com.montreal.api.security.controllers;
 
 import java.util.Optional;
 
@@ -23,10 +23,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.montreal.api_infraelo.security.dto.JwtAuthenticationDto;
-import br.com.montreal.api_infraelo.security.dto.TokenDto;
-import br.com.montreal.api_infraelo.security.utils.JwtTokenUtil;
-import br.com.montreal.api_infraelo.util.Response;
+import br.com.montreal.api.security.dto.JwtAuthenticationDto;
+import br.com.montreal.api.security.dto.TokenDto;
+import br.com.montreal.api.security.utils.JwtTokenUtil;
+import br.com.montreal.api.util.Response;
 
 @RestController
 @RequestMapping("/auth")
